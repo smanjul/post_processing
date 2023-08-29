@@ -5,3 +5,6 @@ It contains Matlab script to transform a field in a r-theta plane from physical 
 
 ## 3D
 It contains the 3D version of the 2D Matlab script to compute FFT of a physical space in a given direction.
+
+## LyapunovExponent
+The directory contains Matlab codes to plot Phase Space trajectories reconstructed from a time series.
