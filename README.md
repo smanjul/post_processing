@@ -8,4 +8,5 @@ It contains the 3D version of the 2D Matlab script to compute the FFT of a physi
 
 ## LyapunovExponent
 The directory contains Matlab codes to plot Phase Space trajectories reconstructed from a time series.
-`lyap_exp.m`: 
+
+`lyap_exp.m`: Main file, where the timeseries file path should be specified.
