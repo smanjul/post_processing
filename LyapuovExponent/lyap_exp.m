@@ -1,3 +1,11 @@
+% This script was originally prepared by Vishnu R to reconstruct the
+% phase space from a given timeseries data. It was later modified by Manjul
+% Sharma in its present form. It can now do the following:
+%       - Downsample large data on a uniform grid
+%       - Interpolate non-uniform grid data to a uniform grid
+%       - Extract Lyapunov Exponent of the data
+%       - Reconstruct phase space
+% ---------------------------------------------------------------------------
 clear; clc; close all;
 gam = 1;
 probe=load("Air_3400_Ma_01_vel2_combine_dim_less"); % ENTER file to load
